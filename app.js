@@ -21,7 +21,7 @@ postBtn.addEventListener("click", () => {
     localStorage.setItem("blogs", JSON.stringify(localBlogs));
     title.value = "";
     blogBody.value = "";
-    window.open("BlogWebApp/index.html", "_self");
+    window.open("/index.html", "_self");
     printBlog();
   }
 });
