@@ -21,7 +21,7 @@ postBtn.addEventListener("click", () => {
     localStorage.setItem("blogs", JSON.stringify(localBlogs));
     title.value = "";
     blogBody.value = "";
-    window.open("/index.html", "_self");
+    window.open("https://naqeeb7506.github.io/BlogWebApp/index.html", "_self");
     printBlog();
   }
 });
